@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+
+# Output files
+*.zip
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test output
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+pytest_cache/
+
+# Mac and Windows clutter
+.DS_Store
+Thumbs.db
+
+# Ignore all contents of var/
+var/*
+
+# Re-include empty folder structure
+!var/pdf/
+!var/md/
+!var/pdf/.gitkeep
+!var/md/.gitkeep
+
+# Ignore all files inside those dirs (but not the .gitkeep)
+var/pdf/*
+!var/pdf/.gitkeep
+var/md/*
+!var/md/.gitkeep

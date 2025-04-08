@@ -1,0 +1,5 @@
+pdfminer.six
+sumy
+nltk
+langdetect
+python-dotenv
