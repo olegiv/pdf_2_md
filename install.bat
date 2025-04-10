@@ -11,4 +11,8 @@ echo 📦 Installing dependencies...
 call venv\Scripts\activate.bat
 pip install --upgrade pip
 pip install -r requirements.txt
-echo ✅ All dependencies installed.
+
+echo 📚 Downloading required NLTK data...
+python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+
+echo ✅ All dependencies and NLTK data installed.
